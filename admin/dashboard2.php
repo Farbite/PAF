@@ -37,10 +37,10 @@ include '../connect.php';
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">Pricelist</a>
+                  <a class="dropdown-item" href="#">Placeholder2</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Product</a>
+                  <a class="dropdown-item" href="#">Pricelist</a>
                 </li>
                 <li>
                   <hr class="dropdown-divider">
