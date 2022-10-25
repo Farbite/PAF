@@ -12,7 +12,7 @@ include '../connect.php';
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../dist/css/modify.css">
   <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
-  <title>Projects Forum!</title>
+  <title>Upload Books</title>
 </head>
 
 <body>
@@ -72,11 +72,11 @@ include '../connect.php';
                       <label for="exampleInputEmail1" class="form-label">Judul</label>
                       <input name="judul" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                       <input name="id_user" type="hidden" value="<?php echo $_SESSION['id_user']; ?>" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">Masukkan Judul Diskusi yang anda inginkan.</div>
+                      <div id="emailHelp" class="form-text">Masukkan Judul Buku.</div>
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Isi</label>
-                      <textarea name="isi" class="form-control" placeholder="Leave a comment here" id="editor" style="height: 100px"></textarea>
+                      <textarea name="isi" class="form-control" placeholder="Book file here" id="editor" style="height: 100px"></textarea>
                     </div>
                     <div class="mb-3">
                       <?php
